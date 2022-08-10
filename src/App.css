@@ -68,23 +68,20 @@ svg.highcharts-root{
   color: #ecf0f1 !important;
   font-size: 14px;
 }
-.panel-header, .panel-body {
+/*.panel-header, .panel-body {
   border-color: rgb(95, 100, 105) !important;
-}
+}*/
 
-.datagrid-header, .datagrid-td-rownumber {
-  background-color: rgba(239, 239, 239, 0) !important;
+.datagrid-header, .datagrid-td-rownumber {  
   background: linear-gradient(to bottom,rgba(239, 239, 239, 0) 0,rgba(239, 239, 239, 0) 100%) !important; 
-   background-repeat: repeat-x;
+  background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9F9F9,endColorstr=#efefef,GradientType=0);
-}
-.datagrid-header td, .datagrid-body td, .datagrid-footer td {
-  border-color: rgba(158, 185, 204, 0.07) !important;
 }
 
 .datagrid-header td, .datagrid-body td, .datagrid-footer td {
   border-width: 0 1px 1px 0;
   border-style: solid !important;
+  border-color: rgba(158, 185, 204, 0.07) !important;
   margin: 0;
   padding: 0;
 }
